@@ -1,0 +1,103 @@
+.cart {
+  display: grid;
+  grid: center;
+  align-items: center;
+  --image-width: 150px;
+  font-size: 1.6rem;
+  .container {
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-flow: row;
+    h1 {
+      width: 100%;
+      text-align: center;
+    }
+    .empty-cart {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .items {
+      width: 100%;
+
+      grid-gap: 10px;
+      display: grid;
+      grid-auto-flow: row;
+      .item {
+        position: relative;
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: var(--image-width) 1fr;
+        background: #f7f7f7;
+        color: var(--main-dark);
+        border-radius: 20px;
+        padding: 10px;
+        picture {
+          position: relative;
+
+          img {
+            width: var(--image-width);
+            height: calc(var(--image-width) * (4 / 3));
+            object-fit: cover;
+          }
+          .item-num {
+            position: absolute;
+            z-index: 10;
+            top: 23px;
+            right: 23px;
+            width: 30px;
+            height: 30px;
+            background-color: var(--main-yellow);
+            border-radius: 50%;
+            transform: translate(20px, -20px) scale(1);
+            color: var(--main-light);
+            font-weight: bold;
+            text-align: center;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+            animation: scaleanimation 1s ease infinite;
+            opacity: 0.8;
+          }
+        }
+        .info {
+          display: grid;
+          grid-auto-flow: row;
+          text-align: left;
+          padding: 0 20px;
+          height: fit-content;
+          justify-content: start;
+
+          h2,
+          .price {
+            font-size: 1.6rem;
+            color: inherit;
+          }
+
+          .buttons-container {
+            margin-top: 30px;
+            display: grid;
+            justify-content: space-between;
+            width: fit-content;
+            grid-auto-flow: row;
+            grid-gap: 5px;
+          }
+        }
+      }
+    }
+    .checkout {
+      display: grid;
+      grid-gap: 10px;
+      padding-top: 1rem;
+      border-top: 1px solid;
+
+      span {
+        font-size: 2.4rem;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+  }
+}

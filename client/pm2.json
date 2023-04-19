@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "bot-client",
+      "script": "npm run preview",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "8888"
+      }
+    }
+  ]
+}

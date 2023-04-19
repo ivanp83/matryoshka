@@ -1,0 +1,75 @@
+.button {
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--main-light);
+  border-radius: 50px;
+}
+
+.button.shop {
+  padding: 10px 45px;
+  width: 100%;
+  background-color: var(--main-dark);
+}
+.button.finish {
+  padding: 10px 45px;
+  width: 100%;
+  background-color: var(--main-green);
+}
+.button.add {
+  width: 80px;
+  background-color: var(--main-green);
+}
+
+.button.remove {
+  width: 80px;
+  background-color: tomato;
+}
+.button.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button.back svg {
+  height: 25px;
+  width: 25px;
+}
+
+.button.checkout {
+  width: 100%;
+  padding: 10px 45px;
+  background: var(--main-dark);
+  color: var(--main-light);
+  outline: none;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button.add:hover {
+  background-color: var(--dark-green);
+}
+
+.button.add:active {
+  background-color: var(--main-green);
+}
+
+.button.remove:hover {
+  background-color: var(--dark-red);
+}
+.button.remove:active {
+  background-color: var(--main-red);
+}
+
+.button.checkout:hover {
+  background-color: var(--dark-green);
+}
+.button.checkout:active {
+  background-color: var(--main-green);
+}

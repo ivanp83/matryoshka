@@ -1,0 +1,44 @@
+.admin-cat-list {
+  list-style: none;
+  display: grid;
+  grid-gap: 0.5rem;
+  .admin-cat-item {
+    padding: 10px;
+    border: 1px solid var(--light-gray);
+    border-radius: 10px;
+    position: relative;
+    a {
+      display: contents;
+    }
+    .btn-delete {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      svg {
+        fill: var(--dark-red);
+      }
+    }
+    figure {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      img {
+        width: 5rem;
+        height: calc(5rem * 4 / 3);
+        object-fit: cover;
+        background-color: var(--light-gray);
+        display: block;
+      }
+      figcaption {
+        margin-left: auto;
+        padding-left: 3rem;
+        display: grid;
+        place-content: start;
+        text-align: right;
+        h2 {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

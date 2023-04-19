@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "bot-backend",
+      "script": "node main.js",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "8000"
+      }
+    }
+  ]
+}

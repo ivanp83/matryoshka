@@ -1,0 +1,97 @@
+
+version: "3"
+services:
+    frontend:
+        container_name: bot_client
+        build:
+            context: ./client
+            dockerfile: Dockerfile
+        image: matreshka_bot_client
+        ports:
+            - "8888:8888"
+        volumes:
+            - ./client:/usr/src/app
+        networks:
+            - main
+    backend:
+        container_name: bot_api
+        build:
+            context: ./backend
+            dockerfile: Dockerfile
+        image: matreshka_bot_api
+        ports:
+            - "8000:8000"
+        volumes:
+            - ./server:/usr/src/app
+        networks:
+            - main
+
+    postgres:
+        container_name: postgres
+        image: postgres:14
+        environment:
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=postgres
+            - POSTGRES_DB=matreshka_bot
+        volumes:
+            - postgres:/var/www/matreshka/docker-volumes/postgres
+        ports:
+            - 127.0.0.1:5432:5432
+        networks:
+            - main
+        restart: always
+
+    pgadmin:
+        container_name: pgadmin
+        image: dpage/pgadmin4
+        environment:
+            PGADMIN_DEFAULT_EMAIL: matreshka@admin.com
+            PGADMIN_DEFAULT_PASSWORD: matreshka
+            PGADMIN_CONFIG_SERVER_MODE: 'False'
+        volumes:
+            - pgadmin:/var/www/matreshka/docker-volumes/pgadmin
+        ports:
+            - 127.0.0.1:5050:80
+        networks:
+             - main
+        restart: always
+    proxi:
+        image: nginx:mainline-alpine
+        container_name: proxi
+        restart: unless-stopped
+        ports:
+        - "80:80"
+        volumes:
+        - web-root:/var/www/html
+        - ./nginx-conf:/etc/nginx/conf.d
+        - certbot-etc:/etc/letsencrypt
+        - certbot-var:/var/lib/letsencrypt
+        depends_on:
+        - backend
+        networks:
+        - main
+    certbot:
+        image: certbot/certbot
+        container_name: certbot
+        volumes:
+        - certbot-etc:/etc/letsencrypt
+        - certbot-var:/var/lib/letsencrypt
+        - web-root:/var/www/html
+        depends_on:
+        - proxi
+        command: certonly --webroot --webroot-path=/var/www/html --email appdeveloper@internet.ru --agree-tos --no-eff-email --staging -d shop.matreshka39.ru  -d www.shop.matreshka39.ru
+networks:
+  main:
+    driver: bridge
+volumes:
+  postgres:
+  pgadmin:
+  certbot-etc:
+  certbot-var:
+  web-root:
+    driver: local
+ 
+
+
+
+

@@ -1,0 +1,12 @@
+.sub-nav {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: row;
+  font-size: 1.6rem;
+  li {
+    a {
+      font-size: 2rem;
+      color: var(--tg-theme-text-color);
+    }
+  }
+}

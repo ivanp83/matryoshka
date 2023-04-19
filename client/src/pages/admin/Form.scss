@@ -1,0 +1,114 @@
+form {
+  display: grid;
+  grid-row-gap: 16px;
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  div {
+    width: 100%;
+    display: grid;
+    grid-row-gap: 5px;
+    input,
+    textarea {
+      border: 1px solid var(--light-gray);
+      padding: 0.6rem 1em;
+      border-radius: 10px;
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  .file-upload {
+    width: 100%;
+    position: relative;
+    margin: 15px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .field-file {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+    }
+
+    .field-file-wrapper {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+
+    .field-file-fake {
+      height: 3rem;
+      width: calc(100% - 130px);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 0 15px;
+      border: 1px solid var(--light-gray);
+      border-radius: 5px 0 0 5px;
+      border-right: none;
+    }
+
+    .field-file-button {
+      width: 13rem;
+      height: 3rem;
+      background: var(--main-green);
+      color: var(--main-light);
+      font-size: 1.6rem;
+      font-weight: 500;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+    }
+    img {
+      width: 100%;
+      max-width: 10rem;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+  }
+  select {
+    padding: 0.7rem;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid var(--light-gray);
+  }
+  label {
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+  button {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 10px;
+    background: var(--main-blue);
+    color: var(--main-light);
+    padding: 10px 0;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+}

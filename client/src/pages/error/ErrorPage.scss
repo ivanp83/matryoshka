@@ -1,0 +1,12 @@
+.error-page {
+  height: 100svh;
+  place-content: center;
+  display: grid;
+  h1 {
+    font-size: 10rem;
+    color: var(--dark-red);
+  }
+  h2 {
+    text-align: center;
+  }
+}

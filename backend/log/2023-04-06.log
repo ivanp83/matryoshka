@@ -1,0 +1,98 @@
+2023-04-06T08:03:27	API on port 8000
+2023-04-06T08:04:12	API on port 8000
+2023-04-06T08:04:17	[; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]
+2023-04-06T08:09:25	API on port 8000
+2023-04-06T08:20:24	{; name: 'hello',; method: 'create',; cartItems: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:26:34	{; name: 'hello',; method: 'create',; cartItems: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:42:15	API on port 8000
+2023-04-06T08:42:42	{; name: 'hello',; method: 'create',; cartItems: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:42:43	{; name: 'hello',; method: 'create',; cartItems: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:43:43	{; name: 'hello',; method: 'create',; cartItems: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:44:25	API on port 8000
+2023-04-06T08:44:35	{; name: 'checkout',; method: 'create',; cartItems: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:44:35	; 
+2023-04-06T08:44:50	API on port 8000
+2023-04-06T08:44:58	{; name: 'checkout',; method: 'create',; cartItems: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:45:10	API on port 8000
+2023-04-06T08:45:18	{; name: 'checkout',; method: 'create',; cartItems: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:45:23	API on port 8000
+2023-04-06T08:45:54	{; name: 'checkout',; method: 'create',; products: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:46:19	API on port 8000
+2023-04-06T08:46:24	{; name: 'checkout',; method: 'create',; products: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:46:31	API on port 8000
+2023-04-06T08:48:18	{; name: 'checkout',; method: 'create',; products: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:48:18	; 
+2023-04-06T08:48:19	{; name: 'checkout',; method: 'create',; products: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:48:19	; 
+2023-04-06T08:48:35	{; name: 'checkout',; method: 'create',; products: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:48:35	; 
+2023-04-06T08:48:39	API on port 8000
+2023-04-06T08:49:03	{; name: 'checkout',; method: 'create',; products: [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; }
+2023-04-06T08:49:03	; 
+2023-04-06T08:49:34	API on port 8000
+2023-04-06T08:49:42	API on port 8000
+2023-04-06T08:49:47	[]
+2023-04-06T08:49:47	; 
+2023-04-06T08:50:04	API on port 8000
+2023-04-06T08:50:11	[AsyncFunction: create]
+2023-04-06T08:50:11	; 
+2023-04-06T08:50:31	API on port 8000
+2023-04-06T08:50:39	[AsyncFunction: create]
+2023-04-06T08:50:39	; 
+2023-04-06T08:50:44	API on port 8000
+2023-04-06T08:50:53	[AsyncFunction: create]
+2023-04-06T08:50:53	; 
+2023-04-06T08:51:03	API on port 8000
+2023-04-06T08:51:09	[AsyncFunction: create]
+2023-04-06T08:51:26	API on port 8000
+2023-04-06T08:51:29	API on port 8000
+2023-04-06T08:51:35	[AsyncFunction: create]
+2023-04-06T08:51:45	API on port 8000
+2023-04-06T08:51:56	API on port 8000
+2023-04-06T08:52:00	API on port 8000
+2023-04-06T08:52:05	{ create: [AsyncFunction: create] }
+2023-04-06T08:52:23	API on port 8000
+2023-04-06T08:52:28	[]
+2023-04-06T08:52:41	API on port 8000
+2023-04-06T08:52:57	checkout create
+2023-04-06T08:53:28	checkout create
+2023-04-06T08:53:28	; 
+2023-04-06T08:53:59	API on port 8000
+2023-04-06T08:54:03	checkout create
+2023-04-06T08:54:13	API on port 8000
+2023-04-06T08:54:20	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:54:38	API on port 8000
+2023-04-06T08:54:42	API on port 8000
+2023-04-06T08:54:54	API on port 8000
+2023-04-06T08:55:04	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:55:17	API on port 8000
+2023-04-06T08:57:50	undefined undefined []
+2023-04-06T08:57:51	undefined undefined []
+2023-04-06T08:58:00	undefined undefined []
+2023-04-06T08:58:26	undefined undefined []
+2023-04-06T08:58:41	undefined undefined []
+2023-04-06T08:58:50	undefined undefined []
+2023-04-06T08:58:54	undefined undefined []
+2023-04-06T08:59:05	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:59:13	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:59:14	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:59:14	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:59:15	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:59:15	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:59:15	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:59:25	undefined undefined []
+2023-04-06T08:59:44	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:59:45	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T08:59:49	API on port 8000
+2023-04-06T08:59:50	undefined undefined []
+2023-04-06T08:59:54	API on port 8000
+2023-04-06T08:59:55	undefined undefined []
+2023-04-06T08:59:59	undefined undefined []
+2023-04-06T09:00:02	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T09:00:27	undefined undefined []
+2023-04-06T09:00:37	undefined undefined []
+2023-04-06T09:00:41	undefined undefined []
+2023-04-06T09:00:44	checkout create [; [; {; id: 13,; name: 'asd',; description: 'dasasd',; price: 3232,; category_id: 17,; product_id: 13,; page_id: null,; small: 'images/1680524547713/600.jpg',; big: 'images/1680524547713/1200.jpg',; quantity: 14; },; {; id: 14,; name: 'asd23',; description: 'adsas',; price: 3232,; category_id: 17,; product_id: 14,; page_id: null,; small: 'images/1680524555607/600.jpg',; big: 'images/1680524555607/1200.jpg',; quantity: 3; }; ]; ]
+2023-04-06T09:12:43	undefined undefined []
+2023-04-06T09:46:07	API on port 8000
+2023-04-06T09:46:09	undefined undefined []
